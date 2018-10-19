@@ -2,10 +2,10 @@ const cfg = [];
 
 // Discord config, see the README for help
 cfg.discord = {
-    token: 'BotTokenHere',
+    token: 'process.env.BOT_TOKEN',
     prefix: '!',
     admins: [
-        'YOUR ID HERE' // Your ID Here
+        '492552276326481930' // Your ID Here
     ]
 };
 
@@ -16,7 +16,7 @@ cfg.options = {
 
 // YouTube API Key, see the README for help
 cfg.api = {
-    youtube: 'API KEY HERE'
+    youtube: 'AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4'
 };
 
 // Lavalink config, see the README for help
