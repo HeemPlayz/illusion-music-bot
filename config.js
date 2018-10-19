@@ -2,7 +2,6 @@ const cfg = [];
 
 // Discord config, see the README for help
 cfg.discord = {
-    token: 'process.env.BOT_TOKEN',
     prefix: '!',
     admins: [
         '492552276326481930' // Your ID Here
