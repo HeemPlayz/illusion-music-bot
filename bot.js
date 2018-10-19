@@ -1,4 +1,4 @@
-const chalk    = require('chalk');
+const chalk    = require('chalk');  // Supppppps
 const Discord  = require('discord.js');
 const client   = new Discord.Client();
 
@@ -12,7 +12,7 @@ client.on('ready', () => {
     client.generateInvite(8).then(invite => {
         functions.run(client);
         console.log(`${chalk.green(`[L]`)} | ${chalk.green(`Illusion Music Bot Ready! - Logged in as ${client.user.username} - Current prefix is: ${config.discord.prefix}\nInvite link: ${invite}\nCreated by Tetrabyte#4866 (@TheTetrabyte)`)}`);
-        client.user.setPresence({ status: `online`, activity: { name: `Illusion Music Bot v1.0` } });
+        client.user.setPresence({ status: `online`, activity: { name: `By HeemPlayz` } });
     });
 });
 
